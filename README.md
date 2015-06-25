@@ -1,16 +1,16 @@
 ## ABC Polymer
 
-**The Regular Edition is not published but will be during next weeks**
+**The Regular Edition is not yet published but will be during next weeks**
 
-### What is the ABC Polymer ?
+### What is ABC Polymer ?
 
-ABC Polymer mean "Application BaseCode for Polymer". It give you the possibility to start a project on a neat base using technologies such as NodeJS (*Express.JS, Socket.IO & Passport/JWToken*) and Polymer (*Polymer Starter Kit*). The ABC is available in two edition : the *Express edition* and the *Regular edition*, both are completely open-source and their use depend of which architecture you want your project on.
+ABC Polymer stands for "Application BaseCode for Polymer". It makes it possible to start a project on a neat base using technologies such as NodeJS (*Express.JS, Socket.IO & Passport/JWToken*) and Polymer (*Polymer Starter Kit*). ABC is available in two editions : the *Express edition* and the *Regular edition*, both are completely open-source and their use depend on which architecture you want to build your project on.
 
-### What this edition contain ?
+### What does this edition contain ?
                   
-The *Express edition* run entierly under the *EXPRESS.JS* server which make possible the use of secured authentification (such as *Passport.JS*) while the *Regular edition* is for people who want to run their website under existant web servers (*MAMP, WAMP, ...*) and use tokens for the authentification system.
+The *Express edition* runs entierly under the *EXPRESS.JS* server which make it possible to use secured authentification (such as *Passport.JS*) while the *Regular edition* is for people who want to run their website under existant web servers (*MAMP, WAMP, ...*) and use tokens for the authentification system.
 
-**Both edition have two versions : one using MongoDB and one using MySQL for the database.**
+**Both editions have two versions : one using MongoDB and one using MySQL for the database.**
 
 ### And for the future... ?
 
