@@ -12,6 +12,12 @@ The *Express edition* run entierly under the *EXPRESS.JS* server which make poss
 
 **Both edition have two versions : one using MongoDB and one using MySQL for the database.**
 
+### And for the future... ?
+
+* Securing the JWToken in order to publish the Regular edition
+* Implement cool element examples such as neon-animations etc...
+* Lot of cool stuff from your contributions !
+
 ### Credits :
 
 * *Samuel LESPES CARDILLO*
