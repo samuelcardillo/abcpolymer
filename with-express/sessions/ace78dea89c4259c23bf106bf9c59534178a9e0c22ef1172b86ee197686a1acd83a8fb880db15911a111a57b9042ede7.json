@@ -1,0 +1,19 @@
+{
+  "cookie": {
+    "originalMaxAge": null,
+    "expires": null,
+    "secure": false,
+    "httpOnly": true,
+    "path": "/"
+  },
+  "passport": {
+    "user": {
+      "_id": "558bebfbdc4d3e0a8065ad80",
+      "nickname": "dani",
+      "pwd": "vaf",
+      "fullname": "Daniel Vafidis",
+      "__v": 0
+    }
+  },
+  "__lastAccess": 1435234745622
+}
