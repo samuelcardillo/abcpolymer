@@ -1,0 +1,14 @@
+{
+  "name": "accessibility-developer-tools",
+  "homepage": "https://github.com/GoogleChrome/accessibility-developer-tools",
+  "version": "2.7.0",
+  "_release": "2.7.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.7.0",
+    "commit": "9eb0e670daf08b2983a94bd034e99999590ba32f"
+  },
+  "_source": "git://github.com/GoogleChrome/accessibility-developer-tools.git",
+  "_target": "^2.7.0",
+  "_originalSource": "GoogleChrome/accessibility-developer-tools"
+}

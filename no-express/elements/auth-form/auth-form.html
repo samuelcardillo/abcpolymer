@@ -1,0 +1,52 @@
+<dom-module id="auth-form">
+	<style>
+	</style>
+	<template>
+		<form is="iron-form" id="form" method="post">
+	        <paper-input-container>
+	          <label>Username</label>
+	          <input is="iron-input" type="text" name="nickname" value="{{info.nickname}}"/>
+	        </paper-input-container>
+	        <paper-input-container>
+	          <label>Password</label>
+	          <input is="iron-input" type="password" name="pwd" value="{{info.pwd}}"/>
+	        </paper-input-container>
+
+			<template is="dom-if" if="{{isRegistration}}">
+				<paper-input-container>
+		          <label>Fullname :</label>
+		          <input is="iron-input" type="text" name="fullname" value="{{info.fullname}}"/>
+		        </paper-input-container>
+			</template>
+
+	        <paper-button on-click="sendForm">Envoyer</paper-button>
+      	</form>
+	</template>
+</dom-module>
+<script type="text/javascript">
+	Polymer({
+		is: "auth-form",
+
+		properties: {
+			method: {
+				type: String,
+				value: 'login'
+			}
+		},
+
+		/** PUBLIC METHODS **/
+		ready: function(){
+			this.isRegistration = (this.method === "register" || this.method === "update") ? true : false;
+		},
+		sendForm: function(event){
+			event.preventDefault();
+			
+			var response = {
+				type: this.method,
+				formInputs: this.$.form.serialize()
+			};
+
+			this.fire("auth-form-sent", response);
+		}
+	})
+</script>
