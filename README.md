@@ -1,4 +1,4 @@
-![](http://sharpik.com/231b5784190085766b394dc0538a65510c009b73/abc%20polymer.png)
+# DEPRECATED: ABC Polymer is done for an old version of Polymer (<2.0) and has not been updated yet.
 
 ## ABC Polymer
 
